@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -3145773429045639684}
   m_Layer: 0
   m_Name: abhinavEnemy
-  m_TagString: Enemy
+  m_TagString: abhinavEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

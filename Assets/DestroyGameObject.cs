@@ -83,8 +83,8 @@ public class DestroyGameObject : MonoBehaviour
             Debug.Log("Before particles");
             Instantiate(particles, transform.position, Quaternion.identity);
             Debug.Log("Before score");
-            if (scoreManager != null)
-                scoreManager.AddScore(pointsOnDestroy);
+            //if (scoreManager != null)
+           //scoreManager.AddScore(pointsOnDestroy);
             Debug.Log("Before damage number");
             SpawnDamageNumber();
             Debug.Log("Before destroy");

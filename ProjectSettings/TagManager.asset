@@ -9,6 +9,7 @@ TagManager:
   - Lava
   - Collider
   - pintuEnemy
+  - abhinavEnemy
   layers:
   - Default
   - TransparentFX

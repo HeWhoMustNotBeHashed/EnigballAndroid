@@ -226,7 +226,7 @@ public class DragPhysics : MonoBehaviour
             currentHealth = maxHealth;   // Restore health
 
             ScoreManager scoreManager = FindAnyObjectByType<ScoreManager>();
-            if (scoreManager != null) scoreManager.AddScore(500);
+            if (scoreManager != null) scoreManager.AddScore(50);
 
             int direction = rand.Next(1, 5);
             float boost = 40f;
@@ -256,12 +256,17 @@ public class DragPhysics : MonoBehaviour
             }
 
             ScoreManager scoreManager = FindAnyObjectByType<ScoreManager>();
-            if (collision.CompareTag("Enemy"))
-                if (scoreManager != null) scoreManager.AddScore(100);
+            
+         
+            
+               if (collision.CompareTag("Enemy"))
+                 scoreManager.AddScore(10);
                 else if (collision.CompareTag("pintuEnemy"))
-                    if (scoreManager != null) scoreManager.AddScore(300);
+                     scoreManager.AddScore(30);
                     else if (collision.CompareTag("abhinavEnemy"))
-                        if (scoreManager != null) scoreManager.AddScore(400);
+                        scoreManager.AddScore(30);
+            
+            
         }
     }
 }

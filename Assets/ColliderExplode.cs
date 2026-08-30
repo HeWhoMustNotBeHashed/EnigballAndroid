@@ -56,8 +56,8 @@ public class ColliderExplode : MonoBehaviour
         {
             Instantiate(particles, transform.position, Quaternion.identity);
 
-            if (scoreManager != null)
-                scoreManager.AddScore(pointsOnDestroy);
+           // if (scoreManager != null)
+           //     scoreManager.AddScore(pointsOnDestroy);
 
             SpawnDamageNumber();
             PlaySound(explosionSound);

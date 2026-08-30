@@ -199,5 +199,5 @@ MonoBehaviour:
   particles: {fileID: 769233928299767014, guid: 3f48bc78414079d48a64d03a2f0e5295, type: 3}
   explosionSound: {fileID: 8300000, guid: 5917f1080337f51489be2a2e51f746ed, type: 3}
   soundVolume: 0.8
-  pointsOnDestroy: 300
+  pointsOnDestroy: 50
   damageNumberPrefab: {fileID: 1673554038957177922, guid: 0ec919530b38c204f984e4a4be1d04dc, type: 3}
