@@ -1,0 +1,8 @@
+A:/Unity Projects/balls/.utmp/RelWithDebInfo/1a1l4i16/arm64-v8a/CMakeFiles/edit_cache.dir
+A:/Unity Projects/balls/.utmp/RelWithDebInfo/1a1l4i16/arm64-v8a/CMakeFiles/rebuild_cache.dir
+A:/Unity Projects/balls/.utmp/RelWithDebInfo/1a1l4i16/arm64-v8a/GameActivity/CMakeFiles/game.dir
+A:/Unity Projects/balls/.utmp/RelWithDebInfo/1a1l4i16/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+A:/Unity Projects/balls/.utmp/RelWithDebInfo/1a1l4i16/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+A:/Unity Projects/balls/.utmp/RelWithDebInfo/1a1l4i16/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+A:/Unity Projects/balls/.utmp/RelWithDebInfo/1a1l4i16/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+A:/Unity Projects/balls/.utmp/RelWithDebInfo/1a1l4i16/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
