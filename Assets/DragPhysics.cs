@@ -95,9 +95,12 @@ public class DragPhysics : MonoBehaviour
 
         if (touchEnded)
         {
-            currentHealth = 0;
+            
             if (!healthZero && !isBurnedOut)
+            {
                 HandleLaunch(touchWorldPos);
+                currentHealth = 0;
+            }
             else
             {
                 lr.enabled = false;
@@ -204,6 +207,8 @@ public class DragPhysics : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             touchedGround = true;
+            healthZero = false;
+            currentHealth = maxHealth;
 
             if (Input.touchCount == 0)
             {
@@ -217,6 +222,8 @@ public class DragPhysics : MonoBehaviour
         {
           
             touchedGround = true;
+            healthZero = false;          // Allow aiming again
+            currentHealth = maxHealth;   // Restore health
 
             ScoreManager scoreManager = FindAnyObjectByType<ScoreManager>();
             if (scoreManager != null) scoreManager.AddScore(500);
@@ -236,9 +243,11 @@ public class DragPhysics : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") || collision.CompareTag("pintuEnemy") || collision.CompareTag("abhinavEnemy"))
+        if (collision.CompareTag("Enemy") || collision.CompareTag("pintuEnemy") || collision.CompareTag("abhinavEnemy") || collision.CompareTag("Collider"))
         {
             touchedGround = true;
+            healthZero = false;
+            currentHealth = maxHealth;
 
             if (Input.touchCount == 0)
             {

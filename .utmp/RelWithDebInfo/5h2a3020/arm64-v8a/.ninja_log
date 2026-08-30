@@ -1,0 +1,12 @@
+# ninja log v5
+162	858	8098062454124960	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	a65e9986fda0ceb6
+860	1360	8098062458495550	A:/Unity Projects/balls/EnigballAndroid/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5h2a3020/obj/arm64-v8a/libswappywrapper.so	18937aa3e49acaa6
+99	2735	8098062472864504	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	45375e45387472a0
+60	2758	8098062473062571	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f994e6974964f3dc
+2	2827	8098062473732895	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	46bbbfeda12ae4e9
+129	2841	8098062473803645	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1b18106cf03aab0a
+46	2968	8098062475215692	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	8de66ceac788a0f8
+79	3241	8098062477947081	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	a7d42d8400a2a975
+32	3333	8098062478883624	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	eec8afd24cfea6c1
+17	3510	8098062480662891	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	7aca4e9d64020e30
+3511	3733	8098062482927834	A:/Unity Projects/balls/EnigballAndroid/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5h2a3020/obj/arm64-v8a/libgame.so	c74b53542eb3bdf8
