@@ -5,6 +5,7 @@ public class GameManagerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public GameObject gamePanel;
+    public ScoreManager scoreManager;
     void Start()
     {
         
@@ -21,6 +22,7 @@ public class GameManagerScript : MonoBehaviour
     {
         Debug.Log("DEADDDDDDDD!");
         gamePanel.SetActive(true);
+        scoreManager.highScoreUpdate();
     }
 
     public void restart()

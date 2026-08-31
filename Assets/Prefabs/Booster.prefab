@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DestroyGameObject
   upwardBoostForce: 20
   particles: {fileID: 769233928299767014, guid: 5d24bd043a17e6a43b287f272b47690a, type: 3}
-  explosionSound: {fileID: 8300000, guid: 8ec38113b414fff418b74315f8ab0993, type: 3}
+  explosionSound: {fileID: 8300000, guid: a9ca7e1b26fa05848b7b54e6827855c5, type: 3}
   pintuSound: {fileID: 0}
   soundVolume: 0.8
   pointsOnDestroy: 10
