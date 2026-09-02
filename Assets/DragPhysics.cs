@@ -265,7 +265,7 @@ public class DragPhysics : MonoBehaviour
                      scoreManager.AddScore(30);
                     else if (collision.CompareTag("abhinavEnemy"))
                         scoreManager.AddScore(30);
-            
+            //ADDIGN THIS JSUT TO COMMIT DONT JUDGE PLS
             
         }
     }
